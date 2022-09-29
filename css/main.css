@@ -557,8 +557,20 @@ video {
   position: fixed;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .top-0{
   top: 0px;
+}
+
+.top-\[20\%\]{
+  top: 20%;
+}
+
+.left-\[50\%\]{
+  left: 50%;
 }
 
 .z-10{
@@ -581,6 +593,10 @@ video {
   width: 100%;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .items-center{
   align-items: center;
 }
@@ -591,6 +607,15 @@ video {
 
 .p-10{
   padding: 2.5rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.underline{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 html {
@@ -633,4 +658,22 @@ html {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.transform-50 {
+  transform: translate(-50%, -50%);
+}
+
+.model-name{
+  font-size: 4rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(57 60 65 / var(--tw-text-opacity));
+}
+
+.tagline{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(76 77 81 / var(--tw-text-opacity));
 }

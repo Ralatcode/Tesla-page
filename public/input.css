@@ -21,3 +21,15 @@ html {
 .car-img {
     @apply w-full h-full object-cover;
 }
+
+.transform-50 {
+    transform: translate(-50%, -50%);
+}
+
+.model-name {
+    @apply text-[4rem] text-[#393c41] font-semibold;
+}
+
+.tagline {
+    @apply text-[#4c4d51] text-2xl;
+}
