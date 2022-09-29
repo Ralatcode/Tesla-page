@@ -15,7 +15,7 @@ html {
 }
 
 .car-section {
-    @apply w-full h-screen;
+    @apply relative w-full h-screen;
 }
 
 .car-img {
