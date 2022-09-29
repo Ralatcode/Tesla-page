@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
@@ -410,7 +412,7 @@ video {
   height: auto;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -457,7 +459,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::-webkit-backdrop {
+::-webkit-backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -504,7 +506,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -551,16 +553,84 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.fixed{
+  position: fixed;
 }
 
-.font-bold {
-  font-weight: 700;
+.top-0{
+  top: 0px;
 }
 
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+.z-10{
+  z-index: 10;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-\[4\.3rem\]{
+  height: 4.3rem;
+}
+
+.h-6{
+  height: 1.5rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-links{
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  border-radius: 0.8rem;
+  background-color: transparent;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(24 27 33 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.nav-links:hover{
+  background-color: rgb(24 27 33 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.1;
+}
+
+.car-section{
+  height: 100vh;
+  width: 100%;
+}
+
+.car-img{
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
