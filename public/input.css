@@ -35,7 +35,7 @@ html {
 }
 
 .car-btns {
-    @apply absolute bottom-[15%] left-[50%];
+    @apply absolute bottom-[10%] left-[50%] flex flex-col lg:flex-row lg:bottom-[15%];
 }
 
 .btn {
@@ -43,7 +43,7 @@ html {
 }
 
 .inventory {
-    @apply text-[#393c41] bg-white bg-opacity-60 ml-8;
+    @apply text-[#393c41] bg-white bg-opacity-60 lg:ml-8;
 }
 
 .down-svg {

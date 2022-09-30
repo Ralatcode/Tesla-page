@@ -581,6 +581,10 @@ video {
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-\[4\.3rem\]{
   height: 4.3rem;
 }
@@ -681,8 +685,17 @@ html {
 
 .car-btns{
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px){
+  .car-btns{
+    bottom: 15%;
+    flex-direction: row;
+  }
 }
 
 .btn{
@@ -706,11 +719,16 @@ html {
 }
 
 .inventory{
-  margin-left: 2rem;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.6;
   --tw-text-opacity: 1;
   color: rgb(57 60 65 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px){
+  .inventory{
+    margin-left: 2rem;
+  }
 }
 
 .down-svg{
@@ -754,4 +772,10 @@ html {
 .down-svg{
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+@media (min-width: 1024px){
+  .lg\:block{
+    display: block;
+  }
 }
